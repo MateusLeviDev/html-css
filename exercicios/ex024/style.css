@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #380b61;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #380b61;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+#check{
+    display: inline-block;
+}
+
+body{
+    background-color: #f0f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 33%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+fieldset{
+    border: 0;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #59429d;
+}
+
+.group::before, .group::after{
+    display: table;
+}
+
+.group:after{
+    clear: both;
+}
+
+.field{
+    margin-bottom: 1.2em;
+}
+
+.field label{
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+fieldset.group .field{
+    float: left;
+    margin-right: 1em;
+}
+
+.field input[type="text"], .field input[type="email"], .field select, .field textarea{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 1px 1px 1px rgb(0, 0,0, 0.2);
+    display: block;
+}
+
+.field select option{
+    padding-right: 1em;
+}
+
+.field input:focus, .field select:focus, .field textarea:focus{
+    background-color: #e0e0f8;
+}
+
+.button{
+    font-size: 1.2em    ;
+    background-color: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.259);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
